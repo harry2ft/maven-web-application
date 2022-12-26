@@ -3,10 +3,11 @@ node{
     stage('1clonecode'){
          git "https://github.com/harry2ft/maven-web-application"
     }
-    /*
-    stage('2Test&build'){
+    
+   stage('2Test&build'){
         sh "${mavenHome}/bin/mvn clean package"
     }
+    /*
     stage('3CodeQuality'){
     sh "${mavenHome}/bin/mvn sonar:sonar"
 }
@@ -32,5 +33,5 @@ Check Build status
 
 Landmark Tech''', recipientProviders: [buildUser(), contributor()], subject: 'Build status', to: 'harrye900@gmail.com'
     }   
-    /*
+    */
 }
