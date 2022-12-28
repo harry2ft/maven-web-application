@@ -21,12 +21,12 @@ pipeline{
                     sh 'mvn sonar:sonar'
                 }
             }
+            /*
             stage('uploadArtifact'){
                 steps{
                     sh 'mvn deploy'
                 }
             }
-            /*
             stage('deploytoproduction'){
                 steps{
                     deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://3.142.184.94:8080/')], contextPath: null, war: 'target/*war'
