@@ -22,9 +22,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.218.138.227:9000/</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
+		<sonar.host.url>http://3.145.216.135:9000/</sonar.host.url>
+		<sonar.login>66be5e8593f06575ee97eb8822448c57609710c8</sonar.login>
+		<!-- <sonar.password>admin</sonar.password> -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-		    <url>http://3.16.130.47:8080/mylandmarktech/repository/telsa-appl-releases/</url>
+		    <url>http://18.119.121.22:8181/mylandmarktech/repository/harry-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-		    <url>http://3.16.130.47:8080/mylandmarktech/repository/telsa-new-new-snapshot/</url>
+		    <url>http://18.119.121.22:8181/mylandmarktech/repository/harry-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
